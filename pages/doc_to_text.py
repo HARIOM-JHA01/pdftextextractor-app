@@ -86,7 +86,7 @@ class DocumentToTextUI:
             file_extension = os.path.splitext(uploaded_file.name)[1].lower()
             
             extraction_options = {
-                "langchain": "Custom Algo (Langchain)"
+                "langchain": "Custom Algorithm"
             }
             
             if self.gemini_config.is_available():

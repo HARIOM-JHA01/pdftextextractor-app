@@ -25,7 +25,7 @@ class ExtractorStrategy(ABC):
 
 class LangchainPDFExtractor(ExtractorStrategy):
     def extract_text(self, file_path: str, progress_callback: Callable[[str], None]) -> str:
-        progress_callback("Starting extraction with Langchain...")
+        progress_callback("Starting extraction with Custom algorithm...")
         progress_callback("Loading PDF document...")
         
         try:
