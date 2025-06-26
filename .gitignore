@@ -5,3 +5,8 @@ __pycache__/
 *.pyo
 core/__pycache__/
 core/*.pyc
+core/*.pyo
+user_history.json
+audio_uploads/
+uploads/
+outputs/
